@@ -1,0 +1,167 @@
+Module02 Footprinting and Reconnaissance
+
+Section 01: Footprinting Concepts
+
+Learn how to use the latest techniques and tools to perform foot printing and
+reconnaissance, a critical pre-attack phase of the ethical hacking process.
+
+Hands-On Lab Exercises:
+Over 30 hands-on exercises with real-life simulated targets to build skills on
+how to:
+> Perform foot printing on the target network using search engines, web services, and networking sites
+> Perform website, email, whois, DNS,and network foot printing on the target network.
+
+
+Footprinting:
+Footprinting (also known as reconnaissance) is the technique used for gathering information about computer systems and the entities they belong to.
+
+Passive footprinting:
+Passive Footprinting is the process of gathering information on a target by innocuous, or, passive, means.
+
+Active footprinting:
+Active Footprinting is the process of using tools and techniques, such as performing a ping sweep or using the traceroute command, to gather information on a target.
+
+Section 02: Footprinting through Search Engines !
+
+Google hacking:
+Google hacking, also named Google dorking, is a hacker technique that uses Google Search and other Google applications to find security holes in the configuration and computer code that websites are using. 
+
+Google hacking involves using operators in the Google search engine to locate specific sections of text on websites that are evidence of vulnerabilities, for example specific versions of vulnerable Web applications
+
+Note that for google dorking, it's important to now some of the URL encodings liks
+
+1. %3A is :
+2. %40 is @
+
+Google Hacking Database (GHDB):
+The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers.
+
+Metasearch Engine:
+A metasearch engine (or search aggregator) is an online information retrieval tool that uses the data of a web search engine to produce its own results.
+
+Section 03: Footprinting through Web Services !
+
+Finding Company Domains
+Top-level domain (TLD):
+A top-level domain (TLD) is one of the domains at the highest level in the hierarchical Domain Name System of the Internet after the root domain.
+
+Sublist3r:
+Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT.
+
+Pentest-tools:
+Start a full pentest in minutes with powerful cloud-based tools, plus flexible reporting, automation, and collaboration options.
+
+LinkedIn
+theHarvester:
+TheHarvester is a simple to use, yet powerful tool designed to be used during the reconnaissance stage of a red team assessment or penetration test. It performs open source intelligence (OSINT) gathering to help determine a domain's external threat landscape. The tool gathers names, emails, IPs, subdomains, and URLs by using multiple public resources that include:
+
+The Dark Web:
+The dark web is the World Wide Web content that exists on darknets: overlay networks that use the Internet but require specific software, configurations, or authorization to access. Through the dark web, private computer networks can communicate and conduct business anonymously without divulging identifying information, such as a user's location.
+
+Tor:
+Tor, short for The Onion Router, is free and open-source software for enabling anonymous communication. It directs Internet traffic through a free, worldwide, volunteer overlay network, consisting of more than seven thousand relays, to conceal a user's location and usage from anyone performing network surveillance or traffic analysis.
+
+
+OS Determination
+Shodan:
+Shodan is the world's first search engine for Internet-connected devices. Discover how Internet intelligence can help you make better decisions.
+
+Competitive Intelligence:
+Competitive intelligence (CI) is the process and forward-looking practices used in producing knowledge about the competitive environment to improve organizational performance.
+
+Other Techniques
+Google earth:
+Google Earth is a computer program that renders a 3D representation of Earth based primarily on satellite imagery.
+
+Google finance:
+Google Finance is a website focusing on business news and financial information hosted by Google.
+
+
+Section 04: Website Footprinting !
+Burp suite:
+Burp Suite is an integrated platform/graphical tool for performing security testing of web applications.
+
+Website footprinting
+1. Examining HTML source code
+2. Examining cookies
+
+Web Spider:
+A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and that is typically operated by search engines for the purpose of Web indexing (web spidering).
+
+Extracting Information from archive.org
+Archive Org:
+The Internet Archive is an American digital library with the stated mission of "universal access to all knowledge".
+
+
+Metadata Extraction Tools
+ExifTool:
+ExifTool is a free and open-source software program for reading, writing, and manipulating image, audio, video, and PDF metadata. It is platform independent, available as both a Perl library (Image::ExifTool) and command-line application.
+
+
+Section 05: Domain Footprinting !
+
+Whois Footprinting !
+Whois:
+WHOIS is a query and response protocol that is widely used for querying databases that store the registered users or assignees of an Internet resource, such as a domain name, an IP address block or an autonomous system, but is also used for a wider range of other information.
+
+
+DNS Footprinting !
+Domain name system (DNS):
+The Domain Name System (DNS) is the hierarchical and distributed naming system used to identify computers reachable through the Internet or other Internet Protocol (IP) networks.
+
+Dig:
+Extensive web interface to dig for doing online dns lookup / nameserver query.
+
+Nslookup:
+Nslookup is a network administration command-line tool for querying the Domain Name System to obtain the mapping between domain name and IP address, or other DNS records.
+
+Reverse DNS lookup, dnsrecon:
+DNSRecon is a Python script that provides the ability to perform: Check all NS Records for Zone Transfers.
+
+Section 06: Network Footprinting !
+
+Traceroute:
+In computing, traceroute and tracert are computer network diagnostic commands for displaying possible routes (paths) and measuring transit delays of packets across an Internet Protocol (IP) network. The history of the route is recorded as the round-trip times of the packets received from each successive host (remote node) in the route (path); the sum of the mean times in each hop is a measure of the total time spent to establish the connection.
+
+
+Tcptraceroute:
+Tcptraceroute performs the same task as traceroute, but it uses the TCP protocol instead of ICMP for tracing the route to the destination.
+
+Section 07: Footprinting through Social Engineering
+
+Social Engineering
+Eavesdropping:
+Eavesdropping is the act of secretly or stealthily listening to the private conversation or communications of others without their consent in order to gather information.
+
+Shoulder surfing:
+In computer security, shoulder surfing is a type of social engineering technique used to obtain information such as personal identification numbers (PINs), passwords and other confidential data by looking over the victim's shoulder. Unauthorized users watch the keystrokes inputted on a device or listen to sensitive information being spoken, which is also known as eavesdropping.
+
+Dumpster diving:
+Dumpster diving (also totting, skipping, skip diving or skip salvage) is salvaging from large commercial, residential, industrial and construction containers for unused items discarded by their owners but deemed useful to the picker.
+
+Impersonation / impersonator:
+An impersonator is someone who imitates or copies the behavior or actions of another.
+
+OSINT Framework:
+OSINT framework focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources.
+
+
+Section 08: Footprinting Tools and Countermeasures
+
+Tools
+Recon-ng:
+Recon-ng is a Web Reconnaissance tool written in Python. It has so many modules, database interaction, built-in convenience functions, interactive help, and command completion, Recon-ng provides a powerful environment in which open source web-based reconnaissance can be conducted, and we can gather all information.
+
+
+Countermeasures
+Split DNS:
+In computer networking, split-horizon DNS (also known as split-view DNS, split-brain DNS, or split DNS) is the facility of a Domain Name System (DNS) implementation to provide different sets of DNS information, usually selected by the source address of the DNS request.
+
+Some countermeasures are listed below.
+
+1. Restrict network access to social media from the corporate network.
+2. Security awareness training
+3. Harden web servers
+4. Split DNS into internal and external servers or use split DNS.
+5. Disable unused protocols
+6. Have a good on and offboarding strategy
