@@ -1,10 +1,6 @@
 Module 01: Introduction to Ethical Hacking
 
-
-
 Cover the fundamentals of key issues in the information security world, including the basics of ethical hacking, information security controls, relevant laws, and standard procedures. 
-
-
 
 Key topics covered:
 
@@ -33,83 +29,45 @@ Key topics covered:
 > GDPR
 
 
-
 Section 01: Information Security !
 
 The practice of protecting information by mitigating information risks. Shortened form is InfoSec. Primary focus is on CIA triad.
 
-
-
-
-
 CIA triad: 
-
 The balanced protection of data confidentiality, integrity and availability known as CIA triad.
 
-
-
 Confidentiality: 
-
 In information security, confidentiality is the property that information is not made available or disclosed to unauthorized individuals, entities or processes. It seems similar to privacy but they are interchangeable terms, infact confidentiality is a component of privacy that implements to protect our data from unauthorized viewers. Examples: laptop thief, password thief, sensitive emails being sent to the incorrect individuals.
 
-
-
 Integrity:
-
 It means maintaining and assuring the accuracy and completeness of data over its entire lifecycle. this means data cannot be modified in an unauthorized or undetected manner. it involves human/social, process and commercial integrity as well as data integrity.
 
-
-
 Availability:
-
 For any information system to serve its purpose, the information must be available when it is needed. this means computing systems used to store and process the information. the security controls used to protect it, and communication channels used to access it must be functioning correctly. preventing the disruptions due to power outrages, hardware failures and system upgrades.
 
-
-
 Non-repudiation:
-
 In law, non-repudiation implies one's intention to fulfill their obligations to a contract. it also implies that one party of a transaction cannot deny having received a transaction, nor can other party deny having sent a transaction.
-
-
-
 
 
 Attack Classification:
 
 passive attack:
-
 attack that do not directly/actively involved with target system. like searching google, network traffic analysis, scanning etc.
 
-
-
 active attack:
-
 attack that directly /actively involved with target system. like brute force attack, sending malicious payloads, web app spidering etc.
 
-
-
-close0in attack:
-
+closein attack:
 attack where the attacker is physically close to the target.
 
-
-
 insider attack:
-
 attacks where the attacker is inside of the organization or company. like shoulder surfing passwords, misusing privileged access data.
 
 
-
 Information Warfare:
-
 the battlespace use and management of information and communication technology(ICT)in pursuit of a competitive advantage over an opponent. it is different from cyber warfare that attacks computers, software, command control systems.
 
-
-
 example as command and control warfare, electronic warfare, hacker warfare.
-
-
-
 
 
 Section 02: Hacking Methodology
@@ -125,148 +83,97 @@ It consists of different phases:
 4. covering tracks ->clearing logs
 
 
-
 Exploit:
-
 An exploit is a piece of software, a chunk of data, or a sequence of commands that takes advantages of a bug or vulnerability to cause inintended or unanticipated behavior to occur on computer software, hardware or sometime electronics. Such behavior frequently includes things like gaining access control of a computer system, Dos attack.
-
-
 
 Footprinting:
 
-the technique used for gathering information about computer system or the entities that belong to, known as footprinting. it is also known as reconnaissance. they use various tools and technique to gather information or data to crack down whole system like DNS queries, network enumerations,  ,os identification.
-
-
+The technique used for gathering information about computer system or the entities that belong to, known as footprinting. it is also known as reconnaissance. they use various tools and technique to gather information or data to crack down whole system like DNS queries, network enumerations,  ,os identification.
 
 passive footprinting:
-
 the process of gathering information on a target by innocuous, or gathering information which occurs slowly over time. Such as browsing target's website, visiting social media, googling for footprinting.
 
 
-
 active footprinting:
-
 the process of gathering information on a target by using tools and techniques, such as performing a ping sweep or using traceroute command. it can trigger a target's intrusion detection system (IDS).
 
-
-
 password cracking:
-
 the process of recovering passwords from data that has been store or transmitted by a computer system in scrambled form. It might help a user recover forgotten password to gain unauthorized access to a system, or to act as a preventive measure by system administrators. 
 
-
-
 privilege escalation:
-
 the act of exploiting a bug, a design flaw, or a configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user.
 
-
-
 Vulnerability assessment
-
 the process of identifying, quantifying, and prioritizing the vulnerabilities in a system. 
 
 
-
 Virus:
-
 A computer virus is a type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code.
 
 
-
 Polymorphic Virus:
-
 A polymorphic virus is a harmful, destructive or intrusive type of malware that can change or "morph," making it difficult to detect with antimalware programs.
 
 
-
 Metamorphic Virus:
-
 Metamorphic code is code that when run outputs a logically equivalent version of its own code under some interpretation. This is similar to a quine, except that a quine's source code is exactly equivalent to its own output. Metamorphic code also usually outputs machine code and not its own source code.
-
-
 
 Macro Virus:
 
 In computing terminology, a macro virus is a virus that is written in a macro language: a programming language which is embedded inside a software application (e.g., word processors and spreadsheet applications).
 
 
-
 Boot Sector Virus:
-
 A boot sector virus is a type of malware that infects a system's boot partition or the Master Boot Record (MBR) of a hard disk. During startup and before security software can be executed, the virus executes malicious code.
 
 
-
 Cyber Kill Chain: 
-
 Developed by Lockheed Martin, the Cyber Kill Chain® framework is part of the Intelligence Driven Defense® model for identification and prevention of cyber intrusions activity. The model identifies what the adversaries must complete in order to achieve their objective. The chain:
 
 
-
 Reconnaissance
-
  ->Harvesting email addresses, conference information, etc.
 
 Weaponization
-
 ->Coupling exploit with backdoor into deliverable payload
 
 Delivery
-
 ->Delivering weaponized bundle to the victim via email, web, USB, etc.
 
 Exploitation
-
 ->Exploiting a vulnerability to execute code on victim's system
 
 Installation
-
 ->Installing malware on the asset
 
 Command and control (C2)
-
 ->Command channel for remote manipulation of victim
 
 Action on objectives
-
 ->Intruders accomplish their goals
 
 
 
 Tactics, Techniques and Procedures (TTPs):
-
 Tactics, Techniques, and Procedures (TTPs) is an essential concept in terrorism and cyber security studies. The role of TTPs in terrorism analysis is to identify individual patterns of behavior of a particular terrorist activity, or a particular terrorist organization, and to examine and categorize more general tactics and weapons used by a particular terrorist activity, or a particular terrorist organization.
 
 
 
 Indicators of Compromise (IoC):
-
 Indicator of compromise (IoC) in computer forensics is an artifact observed on a network or in an operating system that, with high confidence, indicates a computer intrusion. Typical IoCs are virus signatures and IP addresses, MD5 hashes of malware files, or URLs or domain names of botnet command and control servers. After IoCs have been identified via a process of incident response and computer forensics, they can be used for early detection of future attack attempts using intrusion detection systems and antivirus software.
 
 
 
-MITRE ATT&CK Framework: !
-
+MITRE ATT&CK Framework: 
 MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.
 
 
-
-
-
 Diamond Model of Intrusion Analysis:
-
 The diamond model of intrusion analysis is a model used by information security professionals to authenticate and track cyber threats. It contains 4 parts - adversary, infrastructure, capability, and target. It gives analysts a comprehensive view of cyber attacks.
 
-
-
-Section 03: Hacking Concepts !
-
+Section 03: Hacking Concepts 
 Hacker:
-
 A hacker is a person skilled in information technology who uses their technical knowledge to achieve a goal or overcome an obstacle, within a computerized system by non-standard means.
-
-
 
 1. White hat hacker: White hats are hackers who work to keep data safe from other hackers by finding system vulnerabilities that can be mitigated.
 
@@ -275,30 +182,20 @@ A hacker is a person skilled in information technology who uses their technical 
 3. Grey hat: A grey hat is a computer hacker or computer security expert who may sometimes violate laws or typical ethical standards, but does not have the malicious intent typical of a black hat hacker.
 
 
-
 Script Kiddie:
-
 A script kiddie, kiddie, or skid is a relatively unskilled individual who uses scripts or programs, such as a web shell, developed by others.
 
 
-
 Hacktivist:
-
 In Internet activism, hacktivism, or hacktivism (a portmanteau of hack and activism), is the use of computer-based techniques such as hacking as a form of civil disobedience to promote a political agenda or social change.
 
 
-
 Insider:
-
 An employee that is already inside of the organization.
 
 
-
 Insider Threat:
-
 Insider threat An insider threat is a malicious threat to an organization that comes from people within the organization, such as employees, former employees, contractors or business associates, who have inside information concerning the organization's security practices, data and computer systems. The threat may involve fraud, the theft of confidential or commercially valuable information, the theft of intellectual property, or the sabotage of computer systems.
-
-
 
 
 
@@ -311,71 +208,42 @@ Insider threat An insider threat is a malicious threat to an organization that c
 
 
 Organized Crime:
-
 Organized crime (or organized crime) is a category of transnational, national, or local groupings of highly centralized enterprises run by criminals to engage in illegal activity, most commonly for profit. While organized crime is generally thought of as a form of illegal business, some criminal organizations, such as terrorist groups, rebel forces, and separatists, are politically motivated.
-
-
-
 
 
 Section 04: Information Security Controls
 
-
-
 Information Assurance:
-
- the practice of assuring information and managing risks related to the use, processing, storage, and transmission of information. Information assurance includes protection of the integrity, availability, authenticity, non-repudiation and confidentiality of user data.[1] IA encompasses both digital protections and physical techniques. These methods apply to data in transit, both physical and electronic forms, as well as data at rest. IA is best thought of as a superset of information security (i.e. umbrella term), and as the business outcome of information risk management. 
-
-
-
+The practice of assuring information and managing risks related to the use, processing, storage, and transmission of information. Information assurance includes protection of the integrity, availability, authenticity, non-repudiation and confidentiality of user data.[1] IA encompasses both digital protections and physical techniques. These methods apply to data in transit, both physical and electronic forms, as well as data at rest. IA is best thought of as a superset of information security (i.e. umbrella term), and as the business outcome of information risk management. 
 
 
 Defense-in-depth:
-
 Defense in depth is a concept used in information security in which multiple layers of security controls (defense) are placed throughout an information technology (IT) system. Its intent is to provide redundancy in the event a security control fails or a vulnerability is exploited that can cover aspects of personnel, procedural, technical and physical security for the duration of the system's life cycle.
 
 
 
-
-
 Risk: 
-
 Information Security Risk:
-
 The risk to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation due to the potential for unauthorized access, use, disclosure, disruption, modification, or destruction of information and/or information systems.
 
 
-
-
-
 Risk Matrix:
-
 A risk matrix is a matrix that is used during risk assessment to define the level of risk by considering the category of probability or likelihood against the category of consequence severity.
 
 
-
 Risk Management:
-
 Risk management is the identification, evaluation, and prioritization of risks (defined in ISO 31000 as the effect of uncertainty on objectives) followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities.
 
 
-
 Risk management - identification:
-
 After establishing the context, the next step in the process of managing risk is to identify potential risks. Risks are about events that, when triggered, cause problems or benefits. Hence, risk identification can start with the source of problems and those of competitors (benefit), or with the problem's consequences.
 
 
-
 Risk management - assessment:
-
 Once risks have been identified, they must then be assessed as to their potential severity of impact (generally a negative impact, such as damage or loss) and to the probability of occurrence. These quantities can be either simple to measure, in the case of the value of a lost building, or impossible to know for sure in the case of an unlikely event, the probability of occurrence of which is unknown.
 
-
-
 Risk management - treatment:
-
 Once risks have been identified and assessed, all techniques to manage the risk fall into one or more of these four major categories:
-
 
 
 1. Avoidance (eliminate, withdraw from or not become involved)
@@ -388,78 +256,51 @@ Once risks have been identified and assessed, all techniques to manage the risk 
 
 
 
-
-
 Cyber Threat Intelligence:
-
 Cyber threat intelligence (CTI) is knowledge, skills and experience-based information concerning the occurrence and assessment of both cyber and physical threats and threat actors that is intended to help mitigate potential attacks and harmful events occurring in cyberspace.
 
 
 
 Cyber threat intelligence - tactical:
-
 Technical intelligence (including Indicators of Compromise such as IP addresses, file names, or hashes) which can be used to assist in the identification of threat actors.
 
 
 
 Cyber threat intelligence - operational:
-
 Operational: details of the motivation or capabilities of threat actors, including their tools, techniques and procedures.
 
 
 
 Cyber threat intelligence - strategic:
-
 Strategic: intelligence about the overarching risks associated with cyber threats which can be used to drive high-level organizational strategy.
 
 
-
-
-
-
-
 Threat Modelling:
-
 Threat modeling is a process by which potential threats, such as structural vulnerabilities or the absence of appropriate safeguards, can be identified and enumerated, and countermeasures prioritized.
 
 
-
 Incident Management: 
-
 An incident is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. Incident management (IcM) is a term describing the activities of an organization to identify, analyze, and correct hazards to prevent a future re-occurrence.
 
 
 
 Incident response team:
-
 An incident response team (IRT) or emergency response team (ERT) is a group of people who prepare for and respond to an emergency, such as a natural disaster or an interruption of business operations. Incident response teams are common in public service organizations as well as in other organizations, either military or specialty. This team is generally composed of specific members designated before an incident occurs, although under certain circumstances the team may be an ad hoc group of willing volunteers.
 
 
 
-
-
 AI and ML:
-
 Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.
-
 
 
 Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.
 
 
-
-
-
 Section 05: Information Security Laws
-
-
 
 The Payment Card Industry Data Security Standard (PCI DSS): !
 
 The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard for organizations that handle branded credit cards from the major card schemes.
-
-
-
 
 
 ISO/IEC 27001:2013
@@ -467,15 +308,9 @@ ISO/IEC 27001:2013
 ISO/IEC 27001 is an international standard on how to manage information security. The standard was originally published jointly by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC) in 2005 and then revised in 2013. It details requirements for establishing, implementing, maintaining and continually improving an information security management system (ISMS) – the aim of which is to help organizations make the information assets they hold more secure.
 
 
-
-
-
-Health Insurance Portability and Accountability Act (HIPAA) !
+Health Insurance Portability and Accountability Act (HIPAA) 
 
 The Health Insurance Portability and Accountability Act of 1996 (HIPAA or the Kennedy–Kassebaum Act) is a United States Act of Congress enacted by the 104th United States Congress and signed into law by President Bill Clinton on August 21, 1996. It modernized the flow of healthcare information, stipulates how personally identifiable information maintained by the healthcare and healthcare insurance industries should be protected from fraud and theft, and addressed some limitations on healthcare insurance coverage.
-
-
-
 
 
 Sarbanes–Oxley Act 
@@ -483,17 +318,13 @@ Sarbanes–Oxley Act
 The Sarbanes–Oxley Act of 2002 is a United States federal law that mandates certain practices in financial record keeping and reporting for corporations. The law was enacted as a reaction to a number of major corporate and accounting scandals, including Enron and WorldCom. The sections of the bill cover responsibilities of a public corporation's board of directors, add criminal penalties for certain misconduct, and require the Securities and Exchange Commission to create regulations to define how public corporations are to comply with the law.
 
 
-
 Digital Millennium Copyright Act
-
 The Digital Millennium Copyright Act (DMCA) is a 1998 United States copyright law that implements two 1996 treaties of the World Intellectual Property Organization (WIPO). It criminalizes production and dissemination of technology, devices, or services intended to circumvent measures that control access to copyrighted works (commonly known as digital rights management or DRM).
-
 
 
 Federal Information Security Modernization Act (FISMA)
 
 The Federal Information Security Modernization Act of 2014 (FISMA 2014) updates the Federal Government's cybersecurity practices by:
-
 
 
 1. Codifying Department of Homeland Security (DHS) authority to administer the implementation of information security policies for non-national security federal Executive Branch systems, including providing technical assistance and deploying technologies to such systems;
@@ -503,17 +334,14 @@ The Federal Information Security Modernization Act of 2014 (FISMA 2014) updates 
 3. Requiring OMB to amend or revise OMB A-130 to "eliminate inefficient and wasteful reporting."
 
 
-
-
-
 General Data Protection Regulation (GDPR) 
 
 The General Data Protection Regulation (GDPR) is the toughest privacy and security law in the world. Though it was drafted and passed by the European Union (EU), it imposes obligations onto organizations anywhere, so long as they target or collect data related to people in the EU. The regulation was put into effect on May 25, 2018. The GDPR will levy harsh fines against those who violate its privacy and security standards, with penalties reaching into the tens of millions of euros.
 
 
-
 Data Protection Act 2018
-
 The Data Protection Act 2018 is the UK’s implementation of the General Data Protection Regulation (GDPR).
+
+That's all.
 
 
